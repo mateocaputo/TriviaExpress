@@ -1,0 +1,33 @@
+body {
+  background-color: DodgerBlue;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #1a1a1a;
+}
+#Login{
+	text-align: center;
+	background-color: #80ffd4;
+	margin:500px;
+	margin-bottom: 10px;
+	margin-top: 0PX;
+    padding: 10px; 
+
+}
+#Register{
+	text-align: center;
+	background-color: #80ffd4;
+	margin:500px;
+	margin-top: 0PX;
+    padding: 10px;  
+}
+
+h2 {
+  color: #002633;
+}

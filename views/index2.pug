@@ -1,0 +1,10 @@
+html
+  head
+  body
+    if (user)
+      h1 Bienvenido #{user.username}
+      
+    form(action='/question' method='post')
+      input(placeholder='pregunta')
+      br
+      input(type='submit' value='Guardar')

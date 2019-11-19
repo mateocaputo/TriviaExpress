@@ -1,0 +1,32 @@
+html         
+  
+  head
+    link(href='style.css' rel='stylesheet')
+
+
+  body
+
+    h1 Hola bienvenido a mi pagina con su propio servidor local.
+    p  Estamos en la pagina principal, a continuacion podran logearse y/o registrarse
+    
+
+    #Login
+      h1 Loguearse
+    
+      form(action='/signin' method='post')
+        input(placeholder='usuario' name='username')
+        br
+        input(type='password' placeholder='contraseña' name='password')
+        br
+        input(type='submit' value='Ingresar') 
+
+    #Register
+
+      h1 Registrarse
+     
+      form(action='/register' method='post')
+        input(placeholder='Usuario' name='username')
+        br
+        input(type='password' placeholder='Contraseña' name='password')
+        br
+        input(type='submit' value='Registrar usuario')
